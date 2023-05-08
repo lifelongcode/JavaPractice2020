@@ -1,0 +1,15 @@
+Question.
+Suppose end user input his or her name all lower case letter.
+You have to make the first letter upper case.
+Example
+Enter your first name....
+User input abraham
+
+your output should be
+Abraham
+
+Ans: This question is not that much hard because if you know String all built in method
+easy solution.
+First we have to know how to create String upperCase()
+Also, we have to know substring method
+let's see the solution on solution class

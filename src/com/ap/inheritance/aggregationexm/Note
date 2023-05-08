@@ -1,0 +1,5 @@
+Aggregation
+If a class have an entity reference, it is known as Aggregation.
+Remember Aggregation HAS-A relationship. Let's working with aggregation
+For example employee object contains many information such as id, name, emailId ect.
+It contains one or more object named address, which contains its own information such as Street, city, state, country, zipcode.

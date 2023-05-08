@@ -1,0 +1,6 @@
+Q.Often interview question ask, What is Dependency Injection?
+
+Ans: Dependency injection enables you to turn regular java classes into managed
+objects and to inject them into any other managed object.
+It is a technique that allowed a client code to be independent from the
+services it is relaying on.

@@ -1,0 +1,10 @@
+Let understand What is association?
+Ans: Try to think first naming convention association.
+In general, we know if someone is member or associated with a board or organization.
+In coding concept is -
+Association is a relation between two separate classes which establishes through their Objects.
+Association can be one-to-one, many-to-one, many-to-many. In object-Oriented programming,
+an Object communicates to another object to use functionality and services provided by that object.
+Composition and Aggregation are the two forms of association.
+
+You can see the image on the image folder

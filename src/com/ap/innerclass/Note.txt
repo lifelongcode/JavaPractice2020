@@ -1,0 +1,4 @@
+If you like to create whatever you have inner class separate file.
+in eclipse you can right mouse click then select refactor to Move Type to New File...
+
+It will create a new .java class

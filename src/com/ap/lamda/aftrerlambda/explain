@@ -1,0 +1,7 @@
+Lambda Expression is a type of "anonymous" method,
+which is not bound to any identifier. And so, they do not belong to any class/type.
+It brings a new and important feature to Java known as "Functional Programming".
+A Lambda Expression enables a method to be passed as an argument to other methods,
+s and when required.
+
+Let's take a closer look at the following code for a better understanding.

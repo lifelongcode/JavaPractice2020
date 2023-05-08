@@ -1,0 +1,2 @@
+Question: Find the number from an array if it matches then output Yes.
+If not then output No

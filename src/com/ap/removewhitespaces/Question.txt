@@ -1,0 +1,17 @@
+The question here is how to remove white spaces.
+
+For example,
+String name = "Abraham Parker";
+
+if we print the length of the name String
+it will show 14 including white space
+
+
+Now, let's say we want to remove the white spaces and want to count the string.
+So, we have to create another String because String is predefine, immutable
+
+String nameWithoutSpaces = name.replaceAll("\\+","");
+
+then if we do
+System.out.println("Length of the nameWithoutSpaces is " + nameWithoutSpaces.length());
+it will print out 13

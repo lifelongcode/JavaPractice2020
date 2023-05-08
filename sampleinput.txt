@@ -1,0 +1,4 @@
+This is the first line of text in the file ...
+This is the second line
+I'm now in third line.
+The last line of text in the file

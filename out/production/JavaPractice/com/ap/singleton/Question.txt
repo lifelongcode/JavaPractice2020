@@ -1,0 +1,5 @@
+Example of Singleton class.
+Q. Define Singleton classes in Java?
+Ans: In Java, when you make the constructor of a class as private,
+then that particular class can generate only one single object.
+This type of class is called as a Singleton Class.

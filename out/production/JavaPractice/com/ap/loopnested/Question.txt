@@ -1,0 +1,6 @@
+//Here is the simple program to find the
+//two different array one of them location to visit
+//another one is the cost
+//also we can calculate the person wise cost
+// example let's say 2500 each person cost to visit New York City
+///5 person cost would be 2500 * 5 = 12,500

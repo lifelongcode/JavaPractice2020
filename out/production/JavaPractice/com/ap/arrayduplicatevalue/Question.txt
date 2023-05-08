@@ -1,0 +1,139 @@
+Find the duplicate value in an int[] array
+
+
+int[] myArray = {1, 2, 5, 5, 6, 4, 7, 7,8};
+
+first iteration
+take index 0
+0 index where is the element is 1
+at the check point index 0
+
+Note: Not only Outer loop ++ also inner loop ++
+
+
+        0 index has element 1
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {2,5,5,6,4,7,7,8} |
+so, (myArray[i] == myArray[j]) //here we are going to compare 1 with j elements {2,5,5,6,6,7,7,8}
+[ 1 == 2 ], false
+[ 1 == 5 ], false
+[ 1 == 5 ], false
+[ 1 == 6 ], false
+[ 1 == 4 ], false
+[ 1 == 7 ], false
+[ 1 == 7 ], false
+[ 1 == 8 ]  false
+Do not find any match, do not print anything
+
+        1 index has element 2
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {5,5,6,4,7,7,8} |
+next iteration i++ right, which is 1,
+1 index where is the element is 2
+
+
+[ 2 == 5 ], false
+[ 2 == 5 ], false
+[ 2 == 6 ], false
+[ 2 == 4 ], false
+[ 2 == 7 ], false
+[ 2 == 7 ], false
+[ 2 == 8 ]  false
+Do not find any match, do not print anything
+
+        2 index has element 5
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {5,6,4,7,7,8} |
+
+next iteration i++ right, which is 2,
+2 index where is the element is 5
+
+
+[ 5 == 5 ], true ((i =2[5] == j=3[5])) here we can see 5 == 5, note: 2 is index, inside closing [5] is the element
+[ 5 == 6 ], false
+[ 5 == 4 ], false
+[ 5 == 7 ], false
+[ 5 == 7 ], false
+[ 5 == 8 ]  false
+
+Yes, we find the match 5 == 5,
+so, print out 5
+
+
+        3 index has the element 5
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {6,4,7,7,8} |
+next iteration i++ right, which is 3,
+3 index where is the element is 5
+
+Start from here
+[ 5 == 6 ], false
+[ 5 == 4 ], false
+[ 5 == 7 ], false
+[ 5 == 7 ], false
+[ 5 == 8 ]  false
+Do not find any match, do not print anything
+
+        4 index has element 6
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {4,7,7,8} |
+next iteration i++ right, which is 4,
+4 index where is the element is 6
+
+Start here,
+[ 6 == 4 ], false
+[ 6 == 7 ], false
+[ 6 == 7 ], false
+[ 6 == 8 ]  false
+Do not find any match, do not print anything
+
+        5 index has element 4
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {7,7,8} |
+next iteration i++ right, which is 5,
+5 index where is the element is 4
+
+Start here
+[ 4 == 7 ], false
+[ 4 == 7 ], false
+[ 4 == 8 ]  false
+
+
+
+        6 has element 7
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {7,8} |
+
+next iteration i++ right, which is 6,
+6 index where is the element is 7
+
+
+Start here
+[ 7 == 7 ], true
+[ 7 == 8 ]  false
+
+Yes, we find the match 7 == 7,
+so, print out 7
+
+
+        7 index has element 7
+        |
+ ~~~~~~~~~~~~~~~~~~~~~
+ | {8} |
+
+next iteration i++ right, which is 7,
+7 index where is the element is 7
+
+
+[ 7 == 8 ] false
+
+
+Nested loop with outer loop
+Done

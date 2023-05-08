@@ -1,0 +1,19 @@
+When and how to use double colon operator?
+
+Method reference or double colon operator can be used to refer:
+
+    a static method,
+    an instance method, or
+    a constructor.
+
+How to use method reference in Java:
+
+    Static method
+
+    Syntax:
+
+    (ClassName::methodName)
+
+    Example:
+
+    SomeClass::someStaticMethod

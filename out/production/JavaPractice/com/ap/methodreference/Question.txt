@@ -1,0 +1,22 @@
+Q. What is :: method reference? How to use it?
+Ans: A method reference is a compact, easy-to read handle for a method that already has a name.
+
+    kind            |       Syntax      |       Method reference    | Lambda Expression
+ ----------------------------------------------------------------------------------------
+ 1. Reference to a  |Containing Class:: | String::valueOf           | s ->
+    static method   |staticMethodName   |                           | String.valueOf(s)
+
+  ----------------------------------------------------------------------------------------
+ 2. Reference to an |Containing Object::| s::toString               | s -> s.toString()
+    instance method |instanceMethodName |                           |
+    of a particular |                   |                           |
+    object          |                   |                           |
+ ----------------------------------------------------------------------------------------
+ 3. Reference to    |Containing Type::  | String::toString          | s -> s.toString()
+    instance method |methodName         |                           |
+    of an arbitrary |                   |                           |
+    object of a     |                   |                           |
+    given type      |                   |                           |
+ ----------------------------------------------------------------------------------------
+ 4. Reference to a  |ClassName::new     |String::new                |() -> new String()
+    constructor     |                   |                           |
